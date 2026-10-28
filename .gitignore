@@ -1,0 +1,38 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data directories
+data/uploads/*
+!data/uploads/.gitkeep
+data/chroma_db/*
+!data/chroma_db/.gitkeep
+
+# ChromaDB
+.chroma/
+*.db
+*.db-shm
+*.db-wal
+
+# Project runtime
+.codegraph/
+.omo/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
